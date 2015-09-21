@@ -1,15 +1,21 @@
 doctype html
 html
-  head
+  head(prefix='og: http://ogp.me/ns#')
+    meta(charset='utf-8')/
     title {{title}}
+    meta(name='description', content='A versioning scheme for job security.')/
+    meta(property='og:title', content='Mega Super Versioning')/
+    meta(property='og:type', content='website')/
+    meta(property='og:url', content='http://msver.org/')/
+    meta(property='og:description', content='A versioning scheme for job security.')/
     link(rel='stylesheet', href='/stylesheets/app.css')/
   body
     nav
       ol.lang
         li
-          a(href= '/') english
+          a(href='/') english
           | &nbsp;[en]
       ol.nav
-        li: a(href= '/spec/2015.html') 2015
+        li: a(href='/spec/2015.html') 2015
     | {{content}}
 
