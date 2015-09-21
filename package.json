@@ -16,12 +16,12 @@
   "dependencies": {},
   "devDependencies": {
     "brunch": "^1.8.5",
-    "clean-css-brunch": "^1.7.2",
-    "css-brunch": "^1.7.0",
     "brunch-static": "^1.0.0",
+    "css-brunch": "^1.7.0",
+    "cssnano": "^3.0.3",
     "html-brunch-static": "^1.0.0",
-    "marked-brunch-static": "^1.0.0",
     "jade-brunch-static": "^1.0.0",
+    "marked-brunch-static": "^1.0.0",
     "postcss-brunch": "^0.5.0",
     "postcss-nested": "^1.0.0"
   }

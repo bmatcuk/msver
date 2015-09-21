@@ -9,6 +9,7 @@ exports.config =
     postcss:
       processors: [
         require('postcss-nested')
+        require('cssnano')
       ]
     static:
       processors: [
