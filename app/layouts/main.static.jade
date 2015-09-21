@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title {{title}}
+    link(rel='stylesheet', href='/stylesheets/app.css')/
+  body
+    nav
+      ol.lang
+        li
+          a(href= '/') english
+          | &nbsp;[en]
+      ol.nav
+        li: a(href= '/spec/2015.html') 2015
+    | {{content}}
+
