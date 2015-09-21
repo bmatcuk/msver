@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mega Super Versioning 2015</title>
+    <link rel="stylesheet" href="/stylesheets/app.css">
+  </head>
+  <body>
+    <nav>
+      <ol class="lang">
+        <li><a href="/">english</a>&nbsp;[en]</li>
+      </ol>
+      <ol class="nav">
+        <li><a href="/spec/2015.html">2015</a></li>
+      </ol>
+    </nav><h1 id="mega-super-versioning-2015">Mega Super Versioning 2015</h1>
+<h2 id="summary">Summary</h2>
+<p>Each application has three versions: a program version, a file version, and the marketing version.</p>
+<h3 id="program-version">Program Version</h3>
+<p>Given a program version number MAJOR.MINOR.BUILD.REVISION, increment the:</p>
+<ol>
+<li>MAJOR version whenever you feel like it,</li>
+<li>MINOR version whenever you feel like it,</li>
+<li>BUILD version whenever you feel like it, and</li>
+<li>REVISION version whenever you feel like it.</li>
+</ol>
+<p>Additionally, any of these values may be a random number, generated whenever you compile or build your application. In some contexts, your program version will only consist of three parts... sometimes two parts... so try not to attribute too much meaning to the numbers.</p>
+<h3 id="file-version">File Version</h3>
+<p>Given a file version number MAJOR.MINOR.BUILD.REVISION, increment the:</p>
+<ol>
+<li>MAJOR version whenever you feel like it,</li>
+<li>MINOR version whenever you feel like it,</li>
+<li>BUILD version whenever you feel like it, and</li>
+<li>REVISION version whenever you feel like it.</li>
+</ol>
+<p>Additionally, any of these values may be a random number, generated whenever you compile or build your application. In some contexts, your file version will only consist of three parts... sometimes two parts... so try not to attribute too much meaning to the numbers.</p>
+<h3 id="marketing-version">Marketing Version</h3>
+<p>This is the most important version number. Given a marketing version number WHATEVER, change the:</p>
+<ol>
+<li>WHATEVER version to whatever your marketing department decides is hip or cool.</li>
+</ol>
+<p>If you don&#39;t have a marketing department, one can be simulated using a standard six sided die. On a roll of:</p>
+<ol>
+<li>Change WHATEVER to the current year, dropping the first two digits,</li>
+<li>Change WHATEVER to the current year, keeping all four digits,</li>
+<li>Change WHATEVER to some 2 to 5 letter identifier, probably including an X to make it sound techie and cool,</li>
+<li>Change WHATEVER to some 2 to 5 letter identifier that sounds friendly and inviting,</li>
+<li>Change WHATEVER to an arbitrary number, avoiding consecutive numbers, or</li>
+<li>Roll again.</li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<p>In the world of job security, there exists a blessed utopia called &quot;dependency hell.&quot; The bigger your system grows, and the more packages you integrate into your software, the more likely you are to become irreplaceable thanks to this loveable condition.</p>
+<p>In order to perpetuate this beautiful scheme, I propose a simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing, but unfortunately not very widespread, practices in use in both closed and open-sourced software. For this system to work, you must give as little fucks as possible. Less work and job security? Score!</p>
+<p>I call this system &quot;Mega Super Versioning.&quot; Under this scheme, version numbers are random and arbitrary.</p>
+<h2 id="mega-super-versioning-specification-msver-">Mega Super Versioning Specification (MSVer)</h2>
+<p>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and &quot;OPTIONAL&quot; in this document are to be interpreted as per the <a href="http://www.merriam-webster.com/dictionary/optional">Merriam-Webster definition of &quot;optional&quot;</a>.</p>
+<ol>
+<li><p>Software using Mega Super Versioning MUST do whatever the hell it wants. However it is done, it SHOULD be incoherent.</p>
+</li>
+<li><p>A normal verison number MUST take the form A.B.C.D, or A.B.C, or A.B, or just A, or whatever. Each element MUST change however you&#39;d like. Randomness is RECOMMENDED.</p>
+</li>
+<li><p>Once a versioned package has been released, the contents MAY be modified if you&#39;d like. Any modifications MAY be released as a new version.</p>
+</li>
+<li><p>Anything may change at any time.</p>
+</li>
+<li><p>The way in which the version number is incremented after this release is dependent on nothing.</p>
+</li>
+<li><p>Build version D (a.b.c.D) MAY be changed if, you know, you feel like it. A random number is RECOMMENDED.</p>
+</li>
+<li><p>Revision version C (a.b.C.d) MAY be changed sometimes, too. A random number is RECOMMENDED.</p>
+</li>
+<li><p>Minor version B (a.B.c.d) MAY be random, or not... whatever.</p>
+</li>
+<li><p>Major version A (A.b.c.d) MAY be something.</p>
+</li>
+<li><p>A pre-release version MAY be denoted by appending or prepending some kind of identifier to your version string. It&#39;s better to just give it a regular version number though, to keep users guessing as to whether or not your application is considered &quot;production ready&quot;.</p>
+</li>
+<li><p>Add some build metadata to your version string. Afterall, this is <em>your</em> string, so make it your own.</p>
+</li>
+<li><p>If you&#39;ve done your versioning correctly, it SHOULD be nearly impossible to tell which version is the newest.</p>
+</li>
+</ol>
+<h2 id="why-use-mega-super-versioning-">Why Use Mega Super Versioning?</h2>
+<p>This is not a new or revolutionary idea. In fact, you&#39;ve probably dealt with software that does this already. What we&#39;ve done here is given a name to it, so it sounds more legit. It takes very little effort, and should guarantee some sort of job security, so, really, why wouldn&#39;t you use it?</p>
+<h2 id="faq">FAQ</h2>
+<h3 id="how-should-i-deal-with-revisions-in-the-initial-development-phase-">How should I deal with revisions in the initial development phase?</h3>
+<p>Let&#39;s be honest: the development phase never ends, so, you know... whatever...</p>
+<h3 id="how-do-i-know-when-to-change-my-marketing-version-">How do I know when to change my marketing version?</h3>
+<p>Whenever &quot;feels&quot; right... maybe once a year? Listen: we all your know your users are going to do QA for you, so try not to think about it too much. Whenever you feel your product is in an early beta phase, update the marketing version and release it to customers. That&#39;s been working for us!</p>
+<h3 id="does-this-encourage-rapid-development-and-iteration-">Does this encourage rapid development and iteration?</h3>
+<p>You betchya!</p>
+<h3 id="documenting-the-entire-public-api-is-too-much-work-">Documenting the entire public API is too much work!</h3>
+<p>I know, right?! Who wants to do that?</p>
+<h3 id="how-should-i-handle-deprecating-functionality-">How should I handle deprecating functionality?</h3>
+<p>Ugh, supporting deprecated code is a pain, right? I find it&#39;s best to just cut it and release with the same version number. What could go wrong?</p>
+<h3 id="does-msver-have-a-size-limit-on-the-version-string-">Does msver have a size limit on the version string?</h3>
+<p>No! Of course not! Feel free to personalize your version string so it sticks out.</p>
+<h2 id="really-">Really?</h2>
+<p>NO! Any sane developer should be using <a href="http://semver.org/">semantic versioning</a>, from which this site has borrowed heavily.</p>
+<h2 id="about">About</h2>
+<p>The Mega Super Versioning specification is authored in jest by <a href="http://squeg.net">Bob Matcuk</a>, inventor of nothing.</p>
+<h2 id="license">License</h2>
+<p><a href="http://creativecommons.org/licenses/by/3.0/">Create Commons - CC BY 3.0</a></p>
+
+  </body>
+</html>
