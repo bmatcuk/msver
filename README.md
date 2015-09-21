@@ -21,7 +21,7 @@ Given a file version number MAJOR.MINOR.BUILD.REVISION, increment the:
 3. BUILD version whenever you feel like it, and
 4. REVISION version whenever you feel like it.
 
-Additionally, any of these values may be a random number, generated whenever you compile or build your application. In some contexts, your file version will only consist of three parts... sometimes two parts... so try not to attribute too much meaning to the numbers.
+Additionally, any of these values may be a random number, generated whenever you compile or build your application. In some contexts, your file version will only consist of three parts... sometimes two parts... so try not to attribute too much meaning to the numbers. Why do we need this when it is essentially the same as the program version? I dunno, man! There might be a time when your program changes without changing the file! Or your file might change without changing the program! Have you thought of that? Huh?!??
 
 ### Marketing Version
 This is the most important version number. Given a marketing version number WHATEVER, change the:
